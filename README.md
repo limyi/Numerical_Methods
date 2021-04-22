@@ -1,1 +1,3 @@
-# Numerical_Methods_Project_Damp_Harmonic_Motion
+Application of numerical methods for damped harmonic motion equation.
+
+LU Method, Gauss Jordan, Gauss Elimination, Muller, Bi Section, Newton Method
