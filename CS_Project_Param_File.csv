@@ -1,0 +1,14 @@
+﻿At_time_seconds,Root_Finding_Approach,Difference_Method,Matrix_Solver,Inverse_Method,Difference_Method_Step_size,Amplitude,Damp_W,Natural_w,Damping_Ratio,Mass_Nb,Stiffness_Nb,Friction,Number_Of_Nodes,Quality_Factor,Root_Finding,Root_Finding
+1,Muller,Backward_Finite_Difference,Numpy_Inverse_Solve,Numpy_INV,0.1,10,0.8,0.2,0.8,0.1,1.05E+11,0,4,0.99,0.1,lower
+,,,,,,,,,,,,,,,3,upper
+,,,,,,,,,,,,,,,0,x0
+,,,,,,,,,,,,,,,3,x1
+,,,,,,10,0.8,0.2,0.8,8.57E+12,1.05E+11,-0.05,15,0.62,1,x2
+,,,,,,,,,,,,,,,1.00E-14,error
+,,Inputs,,,,,,,,,,,,,1000,N
+,Bi-Section,Forward_Difference,LU_Method,Numpy_INV,,,,,,,,,,,30,xi
+,Muller,Backward_Difference,Gauss_Elimination,Inverse_LU_Method,0.1,,,,,,,,,,28,xp
+,Secant,Central_Difference,Gauss_Jordan_Method,Inverse_Gauss_Jordan,,,,,,,,,,,0,initial_guess
+,Newton-Raphson,Forward_Finite_Difference,Numpy_Solve,,,,,,,,,,,,,
+,,Backward_Finite_Difference,scipy_LU_Method,,,,,,,,,,,,,
+,,Central_Finite_Difference,Numpy_Inverse_Solve,,,,,,,,,,,,,
