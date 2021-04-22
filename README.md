@@ -1,1 +1,1 @@
-# Numerical_Methods
+# Numerical_Methods_Project_Damp_Harmonic_Motion
